@@ -39,6 +39,7 @@
 /* second section start  */
 .banner {
   margin-top: 120px;
+  margin-bottom: 50px;
 }
 .banner-container {
   max-width: 1140px;
@@ -54,11 +55,73 @@
 .flowers-primary-text {
   color: #e95a08;
 }
-.banner-img img{
-    width: 100%;
+.banner-img img {
+  width: 100%;
 }
 /* second section done  */
+/* flower plans or third section is start  */
+.flower-card {
+  
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.flower-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.flower-title h3 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.flower-title p {
+  
+  width: 65%;
+}
+.card-container{
+  margin-top: 40px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px 20px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 480px;
+}
+.card p {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.card h3{
+  margin-left: 30px;
+  margin-top: -10px;
+  font-size: 1.5em;
+}
 
+.card img{
+  width: 100%;
+}
+.btn-primary{
+  background-color: #E95A08;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 26px 50px;
+  width: 100%;
+  margin-bottom: 300px;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: rgb(160, 56, 56);
+  color: wheat;
+}
 /* Responsive side  */
 @media screen and (max-width: 576px) {
   .nav-mobile {
@@ -94,20 +157,36 @@
   /* navbar responsive done  */
 
   /* banner section start  */
-  .banner-container{
+  .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-img img{
+  .banner-img img {
     width: 450px;
     margin-right: -4px;
   }
   .banner-title h3 {
-  margin-bottom: -2px;
-  font-weight: 700;
-  font-size: 2.5em;
-}
-.banner-title p{
+    margin-bottom: -2px;
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+  .banner-title p {
     margin-top: 40px;
     font-size: 15px;
-}
+  }
+  /* banner section done  */
+  /* card section start  */
+  /* .flower-title{
+   margin-right: 100px;
+  }
+  .card-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    margin: 0 auto;
+    margin-left: 20px;
+   
+  }
+} */
 }
