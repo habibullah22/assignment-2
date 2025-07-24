@@ -124,8 +124,7 @@
 /* cart section is done  */
 
 /* plant section or fourth section is start  */
-.flower-plant-container{
-  
+.flower-plant-container {
   display: flex;
   align-items: center;
   gap: 100px;
@@ -133,125 +132,165 @@
   max-height: 597px;
   margin: 0 auto;
 }
-.badge{
+.badge {
   position: absolute;
   margin-top: -120px;
   margin-left: 370px;
 }
-.badge img{
+.badge img {
   max-width: 300px;
- 
 }
-.plant-img{
+.plant-img {
   width: 100%;
 }
-.plant-title h3{
+.plant-title h3 {
   font-weight: 600px;
   font-size: 4rem;
 }
-.plant-title ul li{
+.plant-title ul li {
   font-size: 22px;
   color: gray;
 }
 /* plant badge section or fourth section is done  */
- /* deal section or five section start  */
- .deal-container{
+/* deal section or five section start  */
+.deal-container {
   max-width: 1140px;
- 
+
   margin: 0 auto;
- }
- .banner-title{
+}
+.banner-title {
   margin-top: 50px;
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
   margin-bottom: 80px;
- }
- .deal-des{
-
+}
+.deal-des {
   margin-top: -25px;
   font-size: 1.2em;
   color: gray;
   width: 888px;
- }
- .deal-img{
-
+}
+.deal-img {
   width: 100%;
-   /* max-height: 430px; */
+  /* max-height: 430px; */
   display: flex;
   justify-content: center;
   gap: 30px;
- }
- .left-img{
+}
+.left-img {
   display: flex;
   flex-direction: column;
   gap: 25px;
   width: 367px;
   height: 423px;
- }
- .left-img h3{
+}
+.left-img h3 {
   margin-top: 60px;
   margin-bottom: -2px;
   font-weight: 600px;
   font-size: 2em;
   color: white;
- }
- .img-one{
+}
+.img-one {
   background-image: url("../assets/deal-bloom.png");
-  
+
   background-repeat: no-repeat;
   width: 367px;
   height: 201px;
-   border-radius: 10px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
-   
- 
- 
- }
- .img-two{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-two {
   background-image: url("../assets/deal-ana.png");
   background-repeat: no-repeat;
-    width: 367px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 201px;
   border-radius: 10px;
- }
- .img-two h3{
+}
+.img-two h3 {
   margin-top: 60px;
   margin-bottom: -2px;
- }
- .left-img a{
+}
+.left-img a {
   color: white;
   font-size: 1.5em;
- }
- .right-img{
+}
+.right-img {
   background-image: url("../assets/deal-zabo.png");
   background-repeat: no-repeat;
- display: flex;
- flex-direction: column;
- align-items: center;
-   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
   width: 753px;
   height: 423px;
- 
+
   color: white;
- }
- .right-img h3{
+}
+.right-img h3 {
   margin-top: 150px;
   font-weight: 600px;
   font-size: 3em;
- }
- .right-img a{
+}
+.right-img a {
   margin-top: -20px;
   color: white;
   font-size: 1.8em;
- }
+}
+/* <!-- deal or five section is done  -->
+
+    <!-- join section start  --> */
+.joint-container {
+  margin-top: 50px;
+  width: 1440px;
+}
+
+.joint-title {
+  background-image: url("../assets/news-letter-bg.png");
+  width: 100%;
+  height: 533px;
+}
+.joint-title h3 {
+  text-align: center;
+  font-weight: 200px;
+  font-size: 3em;
+  color: white;
+}
+.joint-inter {
+  padding: 50px;
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  display: flex;
+  margin-top: -30px;
+}
+.email {
+  width: 644px;
+  height: 50px;
+}
+.subscribe {
+  padding: 7px 35px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+.subscribe:hover {
+  background-color: brown;
+}
+/* joint section done  */
+
+/* footer section start  */
 
 /* Responsive side  */
 @media screen and (max-width: 576px) {
@@ -326,7 +365,7 @@
   .flower-title p {
     width: 100%;
   }
- 
+
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -349,74 +388,95 @@
     font-size: 10px;
     padding: 10px 20px;
   }
-  .flower-plant-container{
+  .flower-plant-container {
     flex-direction: column;
     margin-top: 70px;
   }
-  .badge{
+  .badge {
     display: none;
   }
-  
-  .plant-img{
+
+  .plant-img {
     width: 358px;
     margin: 0 auto;
-    
   }
-  .plant-img img{
-    
+  .plant-img img {
     height: 396px;
   }
-  .plant-title{
+  .plant-title {
     margin-top: -100px;
     width: 361px;
   }
-  .plant-title h3{
+  .plant-title h3 {
     margin-bottom: -10px;
     font-size: 2em;
   }
-  .plant-title ul li{
+  .plant-title ul li {
     font-size: 15px;
   }
   /* plant badge section is done  */
-/* latest deal section start  */
-.deal-container{
-  max-width: 361px;
-  margin: 0 auto;
-  
- }
-.banner-title{
-  
-  margin-top: 120px;
+  /* latest deal section start  */
+  .deal-container {
+    max-width: 361px;
+    margin: 0 auto;
+  }
+  .banner-title {
+    margin-top: 120px;
     display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin-bottom: 80px;
-}
-.banner-title p{
-  width: 361px;
-}
-.flowers-primary-text h3{
-  font-size: 2em;
-}
-.deal-img{
-  margin-top: -30px;
-  width: 361px;
-  flex-direction: column;
-}
-.img-one h3, .img-two h3, .right-img h3{
-  font-size: 1.5em;
-}
-.right-img a{
-  font-size: 1.5em;
-}
-.right-img{
-  width: 361px;
-  height: 201px;
-}
- .right-img h3{
-  margin-top: 60px;
-  
- }
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .banner-title p {
+    width: 361px;
+  }
+  .flowers-primary-text h3 {
+    font-size: 2em;
+  }
+  .deal-img {
+    margin-top: -30px;
+    width: 361px;
+    flex-direction: column;
+  }
+  .img-one h3,
+  .img-two h3,
+  .right-img h3 {
+    font-size: 1.5em;
+  }
+  .right-img a {
+    font-size: 1.5em;
+  }
+  .right-img {
+    width: 361px;
+    height: 201px;
+  }
+  .right-img h3 {
+    margin-top: 60px;
+  }
+  /* <!-- deal or five section is done  -->
 
+    <!-- join section start  --> */
+  .joint-container {
+    margin-top: 50px;
+    width: 100%;
+    height: 276px;
+  }
+  .joint-title h3 {
+    font-size: 2em;
+    color: white;
+  }
+  .input {
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+  }
+  .subscribe {
+    padding: 15px 5px;
+    height: 100%;
+    font-size: 1em;
+  }
+  /* joint section done  */
+
+  /* footer section start  */
 }
