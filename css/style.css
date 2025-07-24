@@ -164,9 +164,12 @@
   margin-top: 50px;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
+  margin-bottom: 80px;
  }
  .deal-des{
+
   margin-top: -25px;
   font-size: 1.2em;
   color: gray;
@@ -196,6 +199,7 @@
  }
  .img-one{
   background-image: url("../assets/deal-bloom.png");
+  
   background-repeat: no-repeat;
   width: 367px;
   height: 201px;
@@ -374,5 +378,45 @@
     font-size: 15px;
   }
   /* plant badge section is done  */
+/* latest deal section start  */
+.deal-container{
+  max-width: 361px;
+  margin: 0 auto;
+  
+ }
+.banner-title{
+  
+  margin-top: 120px;
+    display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.banner-title p{
+  width: 361px;
+}
+.flowers-primary-text h3{
+  font-size: 2em;
+}
+.deal-img{
+  margin-top: -30px;
+  width: 361px;
+  flex-direction: column;
+}
+.img-one h3, .img-two h3, .right-img h3{
+  font-size: 1.5em;
+}
+.right-img a{
+  font-size: 1.5em;
+}
+.right-img{
+  width: 361px;
+  height: 201px;
+}
+ .right-img h3{
+  margin-top: 60px;
+  
+ }
 
 }
