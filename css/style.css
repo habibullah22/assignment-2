@@ -45,10 +45,11 @@
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: end;
 }
+
 .banner-title h3 {
-  margin-bottom: -2px;
   font-weight: 700;
   font-size: 3em;
 }
@@ -61,7 +62,6 @@
 /* second section done  */
 /* flower plans or third section is start  */
 .flower-card {
-  
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -78,38 +78,37 @@
   font-size: 2.5em;
 }
 .flower-title p {
-  
   width: 65%;
 }
-.card-container{
+.card-container {
   margin-top: 40px;
   margin-bottom: 70px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 70px 20px;
 }
-.card{
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 270px;
+  width: 100%;
   height: 480px;
 }
 .card p {
   font-weight: 400;
   font-size: 1.5em;
 }
-.card h3{
+.card h3 {
   margin-left: 30px;
   margin-top: -10px;
   font-size: 1.5em;
 }
 
-.card img{
+.card img {
   width: 100%;
 }
-.btn-primary{
-  background-color: #E95A08;
+.btn-primary {
+  background-color: #e95a08;
   color: white;
   font-weight: 600;
   font-size: 1em;
@@ -118,13 +117,13 @@
   margin-bottom: 300px;
   border: none;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: rgb(160, 56, 56);
   color: wheat;
 }
 /* Responsive side  */
 @media screen and (max-width: 576px) {
-  .nav-mobile {
+  /* .nav-mobile {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,12 +136,13 @@
     font-size: 1.5em;
     display: flex;
     gap: 20px;
-  }
+  } */
   .lists li {
     display: none;
   }
   .nav-container {
-    margin-top: -50px;
+    margin-top: -30px;
+    margin-bottom: -30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,29 +164,58 @@
     width: 450px;
     margin-right: -4px;
   }
+  .banner-title {
+    max-width: 360px;
+  }
   .banner-title h3 {
     margin-bottom: -2px;
-    font-weight: 700;
-    font-size: 2.5em;
+    font-weight: 600;
+    font-size: 1.8em;
   }
+
   .banner-title p {
     margin-top: 40px;
     font-size: 15px;
   }
+  .
+  
   /* banner section done  */
   /* card section start  */
-  /* .flower-title{
-   margin-right: 100px;
+  .flower-card {
+    max-width: 362px;
   }
-  .card-container{
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
-  }
-  .card{
+  .flower-title {
+    max-width: 350px;
     margin: 0 auto;
-    margin-left: 20px;
-   
   }
-} */
+  .flower-title h3 {
+    font-weight: 500;
+    font-size: 2em;
+  }
+  .flower-title p {
+    width: 100%;
+  }
+ 
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 7px 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 180px;
+    height: 350px;
+  }
+  .btn-primary {
+    margin-top: -20px;
+    background-color: #e95a08;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 20px;
+  }
 }
